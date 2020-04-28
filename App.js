@@ -6,8 +6,8 @@ import ItemList from './Components/ItemList';
 export default function App() {
   return (
     <View style={styles.container}>
-     <Item />
-     {/* <ItemList /> */}
+     {/* <Item /> */}
+     <ItemList />
     </View>
   );
 }
