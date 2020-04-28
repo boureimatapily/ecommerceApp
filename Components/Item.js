@@ -23,7 +23,7 @@ export class Item extends Component {
                     <Rating
                         onFinishRating={this.ratingCompleted}
                         imageSize={20}
-                        style={{ paddingRight:100}}
+                        style={{ paddingRight:80}}
                         
                     />
                     <Text style={styles.price}>{this.props.price}</Text>
@@ -41,11 +41,12 @@ const styles = StyleSheet.create({
     },
     ImageContainer:{
         flex:3,
-        marginRight:10
+        marginRight:10,
+        marginLeft:25
     },
     image:{
-        width:150,
-        height:150,
+        width:120,
+        height:120,
     },
     backgroundImage:{
         backgroundColor:"yellow",
@@ -54,20 +55,18 @@ const styles = StyleSheet.create({
     },
     infosContainer:{
         flex:7,
-        marginTop:40,
+        marginTop:20,
         marginLeft:50,
           
     },
     title:{
         fontWeight:"bold",
-        fontSize:16,
+        fontSize:14,
         marginBottom:8
     },
-    rating:{
-        
-    },
+
     price:{
-        fontSize:40,
+        fontSize:35,
         color:"#8c07f0",
         fontWeight:"bold",
         marginTop:10

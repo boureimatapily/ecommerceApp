@@ -51,7 +51,9 @@ export class ItemList extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginHorizontal: 10
+  
+    marginHorizontal: 10,
+    backgroundColor: "#ededed",
   },
   filter:{
     position:"absolute",
@@ -67,7 +69,7 @@ const styles = StyleSheet.create({
     height:50,
     marginHorizontal:30,
     borderRadius:15,
-    backgroundColor:"#e6ede6",
+    backgroundColor:"white",
     paddingLeft:20
   },
   inputcontainer:{
@@ -75,11 +77,11 @@ const styles = StyleSheet.create({
   },
   iconContainer: {
     flexDirection: "row",
-    marginBottom:5,
+    marginVertical:5,
     marginHorizontal:15
   },
   leftIcon: {
-    backgroundColor:"#e6ede6",
+    backgroundColor:"white",
     borderRadius:50,
     width:40,
     height:40,
@@ -90,7 +92,7 @@ const styles = StyleSheet.create({
   rightIcon: {
     position: "absolute",
     right: 0,
-    backgroundColor:"#e6ede6",
+    backgroundColor:"white",
     borderRadius:50,
     width:40,
     height:40,
