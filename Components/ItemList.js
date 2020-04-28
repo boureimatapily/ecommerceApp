@@ -6,7 +6,7 @@ import Item from './Item'
 export class ItemList extends Component {
   list = [
     { id: "1", name: "Bike Jacket SoftShel Warm", price: "$99", image: require('../assets/hoodie2.jpg') },
-    { id: "2", name: "I lOVE CDDING", price: "$100", image: require('../assets/hoodie3.webp') },
+    { id: "2", name: "I lOVE CODING", price: "$100", image: require('../assets/hoodie3.webp') },
     { id: "3", name: "CODETRAIN", price: "$200", image: require('../assets/hoodie2.jpg') },
     { id: "4", name: "React Native", price: "$90", image: require('../assets/hoodie4.jpg') },
 
@@ -75,7 +75,8 @@ const styles = StyleSheet.create({
   },
   iconContainer: {
     flexDirection: "row",
-    marginBottom:5
+    marginBottom:5,
+    marginHorizontal:15
   },
   leftIcon: {
     backgroundColor:"#e6ede6",
